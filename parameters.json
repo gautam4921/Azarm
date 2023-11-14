@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "networkInterfaceName": {
+            "value": "azw19euvm01871"
+        },
+        "networkSecurityGroupId": {
+            "value": "/subscriptions/90f4dd64-b8a4-40a8-898f-a777acc25b9a/resourceGroups/Az-eastus/providers/Microsoft.Network/networkSecurityGroups/Az-Eastus-NSG"
+        },
+        "subnetName": {
+            "value": "subnet-Dev"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/90f4dd64-b8a4-40a8-898f-a777acc25b9a/resourceGroups/Az-eastus/providers/Microsoft.Network/virtualNetworks/vnet-eastus"
+        },
+        "publicIpAddressName": {
+            "value": "Azw19euvm01-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Static"
+        },
+        "publicIpAddressSku": {
+            "value": "Standard"
+        },
+        "pipDeleteOption": {
+            "value": "Delete"
+        },
+        "virtualMachineName": {
+            "value": "Azw19euvm01"
+        },
+        "virtualMachineComputerName": {
+            "value": "Azw19euvm01"
+        },
+        "virtualMachineRG": {
+            "value": "Az-eastus"
+        },
+        "osDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "osDiskDeleteOption": {
+            "value": "Delete"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1s"
+        },
+        "nicDeleteOption": {
+            "value": "Delete"
+        },
+        "hibernationEnabled": {
+            "value": false
+        },
+        "adminUsername": {
+            "value": "gautam"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "patchMode": {
+            "value": "Manual"
+        },
+        "enableHotpatching": {
+            "value": false
+        },
+        "securityType": {
+            "value": "TrustedLaunch"
+        },
+        "secureBoot": {
+            "value": true
+        },
+        "vTPM": {
+            "value": true
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "azeastusdiag"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/90f4dd64-b8a4-40a8-898f-a777acc25b9a/resourceGroups/Az-eastus/providers/Microsoft.Storage/storageAccounts/azeastusdiag"
+        }
+    }
+}
